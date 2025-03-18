@@ -144,3 +144,7 @@ frog <- function(d, m, conf.level = 0.95, n = 1000) {
 
 frog(d_log, "HomeRange ~ BodyMass_F")
 ```
+
+## Challenges I faced
+
+To be honest, I didn't really have any challenges with this homework. Initially I tried to use a package for the bootstrapping, but I ended up using a for loop in base R instead and found that much simpler. The dummy variable still isn't intuitive to me.
